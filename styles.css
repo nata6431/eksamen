@@ -1,0 +1,257 @@
+.splash {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.splash div {
+
+    flex-basis: 200px;
+    flex-grow: 1;
+
+}
+
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: roboto;
+    background-color: #c6ffff;
+
+
+
+}
+
+h1,
+h2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Style the navbar */
+#navbar {
+    font-family: 'Staatliches', cursive;
+
+    background-color: #c58fd1;
+}
+
+/* Navbar links */
+
+
+#navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+
+}
+
+/*javascript til sticky nav*/
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+#navbar a:hover {
+    background-color: #f0abee;
+}
+
+
+
+
+/*javascript til sticky nav slut*/
+
+/* tema1 knap */
+.knap {
+    background-color: #c58fd1;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Staatliches', cursive;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.tema1 {
+    position: relative;
+    display: inline-block;
+}
+
+/* når dropdown er nede og man ikke holder på et link */
+.tema1-content {
+    display: none;
+    position: absolute;
+    background-color: #c58fd1;
+    z-index: 1;
+}
+
+/* Links inden i dropdown  */
+.tema1-content a {
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+/* Show the dropdown menu on hover */
+.tema1:hover .tema1-content {
+    display: block;
+}
+
+/* farve på linksene når man holder musen over */
+.tema1:hover .knap {
+    background-color: #f0abee;
+}
+
+/*tema2*/
+.tema2 {
+    position: relative;
+    display: inline-block;
+}
+
+
+.tema2-content {
+    display: none;
+    position: absolute;
+    background-color: #c58fd1;
+    z-index: 1;
+}
+
+
+.tema2-content a {
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.tema2-content a:hover {
+    background-color: #f0abee;
+}
+
+
+.tema2:hover .tema2-content {
+    display: block;
+}
+
+
+.tema2:hover .knap {
+    background-color: #f0abee;
+}
+
+/*tema3*/
+.tema3 {
+    position: relative;
+    display: inline-block;
+}
+
+
+.tema3-content {
+    display: none;
+    position: absolute;
+    background-color: #c58fd1;
+    z-index: 1;
+}
+
+
+.tema3-content a {
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.tema3-content a:hover {
+    background-color: #f0abee;
+}
+
+
+.tema3:hover .tema3-content {
+    display: block;
+}
+
+
+.tema3:hover .knap {
+    background-color: #f0abee;
+}
+
+/*tema4*/
+
+.tema4 {
+    position: relative;
+    display: inline-block;
+}
+
+
+.tema4-content {
+    display: none;
+    position: absolute;
+    background-color: #c58fd1;
+    z-index: 1;
+}
+
+
+.tema4-content a {
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.tema4-content a:hover {
+    background-color: #f0abee;
+}
+
+
+.tema4:hover .tema4-content {
+    display: block;
+}
+
+
+.tema4:hover .knap {
+    background-color: #f0abee;
+}
+
+
+
+
+.column img {
+
+
+    width: 180px;
+    height: 180px;
+
+}
+
+.content {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content video {
+    display: block;
+    width: 100%;
+
+
+}
