@@ -15,6 +15,11 @@
 
 img {
     width: 100%;
+
+}
+.column img {
+    width: 100%;
+    padding: 1.5vw;
 }
 
 body {
@@ -235,11 +240,47 @@ h2 {
 
 
 
-.column img {
+.columncv img {
 
 
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.columnapp img {
+
+    padding: 4vw;
+    width: 150px;
+    height: 190px;
+
+}
+
+.columnproto img {
+
+    padding: 4vw;
+    width: 190px;
+    height: 230px;
+
+}
+
+
+.columnhvid {
+    background-color: aliceblue;
+
+}
+
+.column {
+
+    justify-content: center;
+
+    margin: 3vw;
+}
+
+.content1 {
+    justify-content: center;
+    display: flex;
+
 
 }
 
@@ -247,11 +288,17 @@ h2 {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+
 }
 
-.content video {
-    display: block;
-    width: 100%;
+p {
+    padding: 5vw;
+}
 
+@media only screen and (max-width:1000px) {
 
+    .content1 {
+        flex-wrap: wrap;
+
+    }
 }
