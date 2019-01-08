@@ -1,3 +1,5 @@
+/*generelt*/
+
 .splash {
 
     display: flex;
@@ -32,42 +34,21 @@ body {
 
 }
 
-/*svg*/
 
-#velkommen {
-    background-image: url("pics/Artboard%201.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 42vw;
-    height: 32vw;
-    position: absolute;
-    left: 29vw;
-}
-
-#plante1 {
-    background-image: url("pics/art%201.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 20vw;
-    height: 30vw;
-    position: absolute;
-    left: 0.7vw;
-
-
+h1,
+h2 {
+    display: flex;
+    justify-content: center;
 
 }
 
-#plante2 {
-    background-image: url("pics/art%202.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 20vw;
-    height: 30vw;
-    position: absolute;
-    left: 78vw;
-
+p {
+    padding: 0vw 5vw 3vw 5vw;
 }
 
+iframe {
+    margin: 3vw;
+}
 
 
 
@@ -91,12 +72,6 @@ a:hover {
     text-decoration: none;
 }
 
-h1,
-h2 {
-    display: flex;
-    justify-content: center;
-
-}
 
 /*navigationsbaren*/
 
@@ -107,9 +82,6 @@ h2 {
     width: 100%;
     position: fixed;
     top: 0;
-
-
-
 
 }
 
@@ -158,7 +130,6 @@ h2 {
     text-decoration: none;
     display: block;
 }
-
 
 
 /* dropdown kommer ned som blokke */
@@ -284,7 +255,7 @@ h2 {
 }
 
 
-
+/*content og column*/
 
 .columncv img {
 
@@ -358,9 +329,9 @@ h2 {
 
 }
 
-p {
-    padding: 0vw 5vw 3vw 5vw;
-}
+
+
+/*media @*/
 
 @media only screen and (max-width:1000px) {
 
@@ -501,6 +472,42 @@ p {
     display: none;
 }
 
+/*svg*/
+
+#velkommen {
+    background-image: url("pics/Artboard%201.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 42vw;
+    height: 32vw;
+    position: absolute;
+    left: 29vw;
+}
+
+#plante1 {
+    background-image: url("pics/art%201.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 30vw;
+    position: absolute;
+    left: 0.7vw;
+
+
+
+}
+
+#plante2 {
+    background-image: url("pics/art%202.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 30vw;
+    position: absolute;
+    left: 78vw;
+
+}
+
 #tryk {
 
     background-image: url("pics/tryk.svg");
@@ -533,6 +540,4 @@ p {
 
 }
 
-iframe {
-    margin: 3vw;
-}
+
