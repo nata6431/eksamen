@@ -436,6 +436,14 @@ a:hover {
     }
 }
 
+@media only screen and (min-width:1128px) {
+
+    .columnforside {
+
+        padding-bottom: 10vw;
+    }
+}
+
 @media only screen and (max-width:561px) {
 
     iframe {
@@ -445,6 +453,7 @@ a:hover {
 
     }
 }
+
 
 
 /*javascript*/
@@ -539,5 +548,3 @@ a:hover {
 
 
 }
-
-
