@@ -30,7 +30,8 @@ img {
 body {
     font-family: 'Noto Sans', sans-serif;
     background-color: #c6ffff;
-    margin-top: 4vw;
+    margin-top: 10vw;
+
 
 }
 
@@ -40,6 +41,10 @@ h2 {
     display: flex;
     justify-content: center;
 
+}
+
+h1 {
+    margin-top: 5vw;
 }
 
 p {
@@ -299,6 +304,7 @@ a:hover {
     justify-content: center;
 
     margin: 3vw;
+
 }
 
 .columndoku {
@@ -349,6 +355,14 @@ a:hover {
     }
 }
 
+@media only screen and (max-width:1014px) {
+
+    h1 {
+        margin-top: 8vw;
+
+    }
+}
+
 @media only screen and (max-width:436px) {
 
     body {
@@ -394,6 +408,14 @@ a:hover {
 
     body {
         margin-top: 20vw;
+
+    }
+}
+
+@media only screen and (max-width:637px) {
+
+    body {
+        margin-top: 12vw;
 
     }
 }
@@ -458,13 +480,7 @@ a:hover {
     }
 }
 
-@media only screen and (min-width:1340px) {
 
-    .body {
-
-        margin: 1vw;
-    }
-}
 
 
 
