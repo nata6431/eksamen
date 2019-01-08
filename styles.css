@@ -28,7 +28,7 @@ img {
 }
 
 body {
-    font-family: roboto;
+    font-family: 'Noto Sans', sans-serif;
     background-color: #c6ffff;
     margin-top: 4vw;
 
@@ -382,7 +382,21 @@ a:hover {
     }
 }
 
+@media only screen and (max-width:1894px) {
 
+    body {
+        margin-top: 0vw;
+
+    }
+}
+
+@media only screen and (max-width:438px) {
+
+    body {
+        margin-top: 20vw;
+
+    }
+}
 
 @media only screen and (max-width:439px) {
 
@@ -451,6 +465,8 @@ a:hover {
         margin: 1vw;
     }
 }
+
+
 
 @media only screen and (max-width:561px) {
 
