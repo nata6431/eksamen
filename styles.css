@@ -465,6 +465,15 @@ p {
     }
 }
 
+@media only screen and (max-width:561px) {
+
+    iframe {
+
+        width: 90vw;
+        height: 90vw;
+
+    }
+}
 
 
 /*javascript*/
@@ -522,4 +531,8 @@ p {
 
 
 
+}
+
+iframe {
+    margin: 3vw;
 }

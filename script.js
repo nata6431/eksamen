@@ -1,4 +1,11 @@
-window.addEventListener("load", showTryk);
+window.addEventListener("load", sidenVises);
+
+function sidenVises() {
+    console.log("siden vises");
+    showTryk();
+
+
+}
 
 function showTryk() {
     console.log("show tryk")
