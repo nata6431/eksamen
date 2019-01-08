@@ -10,13 +10,16 @@
     flex-basis: 200px;
     flex-grow: 1;
 
+
 }
 
 
 img {
     width: 100%;
 
+
 }
+
 .column img {
     width: 100%;
     padding: 1.5vw;
@@ -25,9 +28,67 @@ img {
 body {
     font-family: roboto;
     background-color: #c6ffff;
+    margin-top: 4vw;
+
+}
+
+/*svg*/
+
+#velkommen {
+    background-image: url("pics/Artboard%201.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 42vw;
+    height: 32vw;
+    position: absolute;
+    left: 29vw;
+}
+
+#plante1 {
+    background-image: url("pics/art%201.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 30vw;
+    position: absolute;
+    left: 0.7vw;
 
 
 
+}
+
+#plante2 {
+    background-image: url("pics/art%202.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 30vw;
+    position: absolute;
+    left: 78vw;
+
+}
+
+
+
+
+/*links på siderne*/
+
+/* unvisited link */
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #c58fd1;
+    text-decoration: none;
 }
 
 h1,
@@ -37,15 +98,22 @@ h2 {
 
 }
 
-/* Style the navbar */
+/*navigationsbaren*/
+
 #navbar {
     font-family: 'Staatliches', cursive;
 
     background-color: #c58fd1;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+
+
+
 }
 
 /* Navbar links */
-
 
 #navbar a {
     float: left;
@@ -57,29 +125,6 @@ h2 {
 
 }
 
-/*javascript til sticky nav*/
-.content {
-    padding: 16px;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky + .content {
-    padding-top: 60px;
-}
-
-#navbar a:hover {
-    background-color: #f0abee;
-}
-
-
-
-
-/*javascript til sticky nav slut*/
 
 /* tema1 knap */
 .knap {
@@ -89,9 +134,10 @@ h2 {
     font-size: 16px;
     border: none;
     font-family: 'Staatliches', cursive;
+    cursor: pointer;
 }
 
-/* The container <div> - needed to position the dropdown content */
+/* <div> - skal have en position */
 .tema1 {
     position: relative;
     display: inline-block;
@@ -115,7 +161,7 @@ h2 {
 
 
 
-/* Show the dropdown menu on hover */
+/* dropdown kommer ned som blokke */
 .tema1:hover .tema1-content {
     display: block;
 }
@@ -270,12 +316,33 @@ h2 {
 
 }
 
+.columnforside {
+    background-color: aliceblue;
+    padding: 8vw 15vw 0vw 15vw;
+
+
+}
+
 .column {
 
     justify-content: center;
 
     margin: 3vw;
 }
+
+.columndoku {
+
+    justify-content: center;
+
+    margin: 3vw 3vw 8vw 3vw;
+
+
+
+
+
+
+}
+
 
 .content1 {
     justify-content: center;
@@ -292,7 +359,7 @@ h2 {
 }
 
 p {
-    padding: 5vw;
+    padding: 0vw 5vw 3vw 5vw;
 }
 
 @media only screen and (max-width:1000px) {
@@ -301,4 +368,158 @@ p {
         flex-wrap: wrap;
 
     }
+}
+
+@media only screen and (max-width:580px) {
+
+    body {
+        margin-top: 9vw;
+
+    }
+}
+
+@media only screen and (max-width:436px) {
+
+    body {
+        margin-top: 0.5vw;
+
+    }
+}
+
+
+@media only screen and (max-width:1336px) {
+
+    body {
+        margin-top: 6vw;
+
+    }
+}
+
+@media only screen and (max-width:936px) {
+
+    body {
+        margin-top: 8vw;
+
+    }
+}
+
+@media only screen and (max-width:671px) {
+
+    body {
+        margin-top: 11vw;
+
+    }
+}
+
+
+
+@media only screen and (max-width:439px) {
+
+    h1 {
+        margin-top: 30vw;
+
+    }
+}
+
+
+@media only screen and (max-width:400px) {
+
+    .columncv {
+        width: 200px;
+        height: 200px;
+        justify-content: center;
+
+    }
+}
+
+@media only screen and (max-width:512px) {
+
+    embed {
+        height: 90vw;
+        width: 90vw;
+
+    }
+}
+
+@media only screen and (min-width:1128px) {
+
+    #plante1 {
+
+        width: 15vw;
+        height: 25vw;
+        position: absolute;
+        left: 0.7vw;
+        top: 63vw
+    }
+}
+
+@media only screen and (min-width:1128px) {
+
+    #plante2 {
+
+        width: 15vw;
+        height: 25vw;
+        position: absolute;
+        left: 78vw;
+        top: 63vw
+    }
+}
+
+
+
+/*javascript*/
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+
+@keyframes pulse_kf {
+    0% {
+        transform: scale(0.97);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.hide {
+    display: none;
+}
+
+#tryk {
+
+    background-image: url("pics/tryk.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 8vw;
+    position: absolute;
+
+    left: 39vw;
+    z-index: 1;
+    cursor: pointer;
+
+
+}
+
+#goddag {
+
+    background-image: url("pics/goddag.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 25vw;
+    height: 8vw;
+    position: absolute;
+
+    left: 39vw;
+    z-index: 1;
+
+
+
 }
